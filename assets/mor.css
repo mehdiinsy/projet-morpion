@@ -1,0 +1,57 @@
+.container {
+    border: solid red 5px;
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url(img/fond\ wick.jpg);
+}
+
+.trois {
+    border: solid black 5px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    margin-bottom: 5%;
+
+}
+
+.entete {
+    border: solid green 5px;
+    width: 70%;
+    margin: 0 auto;
+    height: 20%;
+    margin-top: 5%;
+    
+
+}
+
+.gauche {
+    border: solid blue 5px;
+    width: 15%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    
+
+
+}
+
+.jeu {
+    border: solid yellow 5px;
+    width: 50%;
+    /* height: 40%; */
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+
+}
+
+.droite {
+    border: solid purple 5px;
+    width: 15%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+
+
+}
