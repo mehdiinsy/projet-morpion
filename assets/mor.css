@@ -1,7 +1,7 @@
 .container {
     border: solid black 5px;
-    width: 1000px;
-    height: 800px;
+    width: 1200px;
+    height: 1100px;
     margin: 0 auto;
     background-image: url(img/fond\ wick.jpg);
     background-size:cover;    
@@ -11,16 +11,37 @@
     /* border: solid black 5px; */
     display: flex;
     flex-wrap: wrap;
-    height: 70%;
+    height: 60%;
     margin-bottom: 5%;
 
+}
+
+#Demarrer{
+    margin-left: 45%;
+    margin-top: 2%;
+    -moz-border-radius : 6px;
+  -webkit-border-radius : 6px;
+  border-radius : 6px;
+  width: 10%;
+  height: 3%;
+  background-color: black;
+  color: greenyellow;
+  box-shadow:
+    0 0 4px white,
+    inset 0 0 4px white,
+    0 0 16px white,
+    inset 0 0 8px white,
+    0 0 32px white,
+    inset 0 0 16px white;
+
+    
 }
 
 .entete {
     /* border: solid green 5px; */
     width: 70%;
     margin: 0 auto;
-    height: 20%;
+    height: 15%;
     margin-top: 5%;
     border-radius: 10%;
     box-shadow:
@@ -89,7 +110,7 @@
     background-image: url(img/fond\ wick2.webp);
     background-size: cover;
     opacity: 0.3;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     box-shadow:
     0 0 8px yellow,
     inset 0 0 8px yellow,
@@ -97,7 +118,17 @@
     inset 0 0 16px yellow,
     0 0 32px yellow,
     inset 0 0 32px yellow;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
+}
+
+.case {
+    border: 2px solid yellow;
+    border-radius: 10%;
+    height: 160px;
+    line-height: 160px;
+    font-size: 150px;
 }
 .droite {
     /* border: solid purple 5px; */
