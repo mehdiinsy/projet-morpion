@@ -15,7 +15,7 @@ const conditionsVictoire = [
 ];
 
 // messages
-const gagne = () => `Le joueur ${joueurActif} a gagné`;
+const gagne = () => `Le tueur ${joueurActif} a remporté ce duel`;
 const egalite = () => "Egalité";
 const tourJoueur = () => `C'est au tour du joueur ${joueurActif}`;
 
@@ -59,4 +59,21 @@ function verifGagne(){
         return
     }
 
-}
+    if(!etatJeu.includes("")){
+      statut.innerHTML = egalite()
+      jeuActif = false
+      return
+    }
+
+    joueurActif = joueurActif==="x" ? "0" : "x"
+    statut.innerHTML =  tourJoueur()
+  }
+  
+    function Demarrer(){
+      joueurActif = "x"
+      jeuActif = true
+      etatJeu = ["", "", "", "", "", "", "", "", ""]
+      statut.innerHTML = tourJoueur()
+      document.querySelectorAll(".case").forEach(cell => cell.innerHTML = "")
+    }
+

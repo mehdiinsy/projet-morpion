@@ -15,6 +15,7 @@
     flex-wrap: wrap;
     height: 60%;
     margin-bottom: 5%;
+    opacity: .9;
 
 }
 
@@ -68,6 +69,21 @@ h2{
     0 0 151px  yellow;
 }
 
+h3{
+    color: white;
+    text-shadow:
+    0 0 7px  yellow,
+    0 0 10px  yellow,
+    0 0 21px  yellow,
+    0 0 42px  yellow,
+    0 0 82px yellow,
+    0 0 92px  yellow,
+    0 0 102px  yellow,
+    0 0 151px  yellow;
+    margin-top: 100%;
+    font-size: 250%;
+}
+
 .entete {
     /* border: solid green 5px; */
     width: 70%;
@@ -113,7 +129,8 @@ h2{
     0 0 32px red,
     inset 0 0 16px red;
     background-image: url(img/player\ 1.webp);
-    background-size:contain;
+    background-size:cover;
+    background-position-x: 50%;
     opacity: 0.8;
     text-align: center;
     color: white;
@@ -139,8 +156,7 @@ h2{
     margin-top: 10%;
     margin-bottom: 5%;
     background-image: url(img/fond\ wick2.webp);
-    background-size: cover;
-    opacity: 0.3;
+    background-size:cover;
     /* border-radius: 10%; */
     box-shadow:
     0 0 8px yellow,
@@ -151,6 +167,7 @@ h2{
     inset 0 0 32px yellow;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    opacity: .7;
 
 }
 
@@ -176,7 +193,8 @@ h2{
     0 0 32px blue,
     inset 0 0 16px blue;
     background-image: url(img/player\ 2.webp);
-    background-size:contain;
+    background-size:cover;
+    background-position-x: 50%;
     opacity: 0.8;
     text-align: center;
     color: white;
