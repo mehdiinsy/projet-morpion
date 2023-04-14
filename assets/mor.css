@@ -4,7 +4,9 @@
     height: 1100px;
     margin: 0 auto;
     background-image: url(img/fond\ wick.jpg);
-    background-size:cover;    
+    background-size: cover;
+    background-position-y: 100%;   
+    background-position-x: 50%; 
 }
 
 .trois {
@@ -17,6 +19,7 @@
 }
 
 #Demarrer{
+    cursor: pointer;
     margin-left: 45%;
     margin-top: 2%;
     -moz-border-radius : 6px;
@@ -33,15 +36,43 @@
     inset 0 0 8px white,
     0 0 32px white,
     inset 0 0 16px white;
+    scale: 1;
+    text-shadow:
+    0 0 7px  lime,
+    0 0 10px  lime,
+    0 0 21px  lime,
+    0 0 42px  lime,
+    0 0 82px lime,
+    0 0 92px  lime,
+    0 0 102px  lime,
+    0 0 151px  lime;
 
     
+}
+
+h1{
+    padding-top: 2%;
+}
+
+h2{
+    margin-left: 40%;
+    color: white;
+    text-shadow:
+    0 0 7px  yellow,
+    0 0 10px  yellow,
+    0 0 21px  yellow,
+    0 0 42px  yellow,
+    0 0 82px yellow,
+    0 0 92px  yellow,
+    0 0 102px  yellow,
+    0 0 151px  yellow;
 }
 
 .entete {
     /* border: solid green 5px; */
     width: 70%;
     margin: 0 auto;
-    height: 15%;
+    height: 13%;
     margin-top: 5%;
     border-radius: 10%;
     box-shadow:
@@ -72,7 +103,7 @@
     width: 15%;
     margin-top: 5%;
     margin-bottom: 2%;
-    margin-left: 4%;
+    margin-left: 3%;
     border-radius: 10%;
     box-shadow:
     0 0 4px red,
@@ -104,7 +135,7 @@
     /* border: solid yellow 5px; */
     width: 50%;
     /* height: 40%; */
-    margin: 0 auto;
+    margin-left: 7%;
     margin-top: 10%;
     margin-bottom: 5%;
     background-image: url(img/fond\ wick2.webp);
@@ -135,7 +166,7 @@
     width: 15%;
     margin-top: 5%;
     margin-bottom: 2%;
-    margin-right: 4%;
+    margin-left: 7%;
     border-radius: 10%;
     box-shadow:
     0 0 4px blue,
